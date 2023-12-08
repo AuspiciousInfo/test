@@ -1,0 +1,61 @@
+﻿
+
+C. C:\WINDOWS\system32\cmd.exe - mongo
+> db.students.find().pretty()
+{
+"_id" : ObjectId("6024aefbf54bd0745f0db733"), "name": "tony",
+"age": 17,
+"id": 1,
+"sec": "A",
+"subject":[
+"physics",
+"maths"
+]
+{
+"_id" : ObjectId("6024aefbf54bd0745f0db734"), "name": "steve",
+"age" : 37,
+"id": 2,
+"sec": "A"
+"_id" : ObjectId("6024aefbf54bd0745f0db735"), "name": "natasha",
+"age": 17,
+"id": 3,
+"sec": "B",
+"subject":[
+"physics",
+"english"
+]
+"_id" : ObjectId("6024aefbf54bd0745f0db736"), "name": "bruce",
+"age" : 21,
+"id": 4,
+"sec": "B",
+"subject":[
+"physics",
+"maths",
+"biology",
+"Chemistry"
+]
+{
+{
+"_id" : ObjectId("6024aefbf54bd0745f0db737"), "name": "nick",
+"age" : 40,
+"id": 5,
+"sec": "B",
+"subject":[
+]
+"english"
+"_id" : ObjectId("6024aefbf54bd0745f0db738"), "name": "groot",
+"age": 4,
+"id": 6,
+"sec": "A",
+"subject":[
+]
+"english"
+"_id" : ObjectId("6024aefbf54bd0745f0db739"), "name": "thanos",
+"age": 4,
+"id": 7,
+"sec": "A",
+"subject" : [
+"maths",
+"physics",
+"chemistry"
+]
